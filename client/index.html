@@ -1,13 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rubick-MANIT</title>
+    <style>
+      body {
+        background-image: url("/b1.jpg");
+      }
+    </style>
   </head>
-  <body  class="bg-gradient-to-b from-fuchsia-700 via-purple-800 to-stone-800 bg-cover bg-no-repeat h-full">
-    <div id="root"></div>
+  <!-- bg-gradient-to-b from-fuchsia-800 via-purple-800 to-stone-800 bg-cover bg-no-repeat  -->
+  <!-- bg-gradient-to-b from-fuchsia-700 via-purple-800 to-stone-800 bg-cover bg-no-repeat h-full -->
+  <body class="min-h-screen bg-cover">
+    <div class="bg-opacity-5 backdrop-filter backdrop-blur-xl rounded-xl m-6 shadow-2xl">
+      <div id="root"></div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

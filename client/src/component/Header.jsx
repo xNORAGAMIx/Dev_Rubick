@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className="sticky top-0 z-50">
       <div className="flex justify-between items-center p-3 mx-4">
-        <h1 className="font-extrabold text-4xl text-white">
+        <h1 className="font-extrabold text-4xl bg-gradient-to-b from-slate-200 to-slate-400 bg-clip-text text-transparent ">
           <NavLink to="/">LOGO</NavLink>
         </h1>
         <div className="md:hidden">
